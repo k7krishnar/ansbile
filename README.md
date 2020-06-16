@@ -3,7 +3,7 @@ ansible playbooks
 
 I'm trying to document the playbook which will be used frequenty so i don't have to google them again.
 
-For adding users, i'm keeping the generated public keys inside the playbook directoty. And general configs goes under ~/ansible.cfg
+For adding users, i'm keeping the generated public keys inside the playbook directory (you can generate on fly as well). And general configs goes under ~/ansible.cfg
 and inventory in file "hosts"
 
 To make dry-run
