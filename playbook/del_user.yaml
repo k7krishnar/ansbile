@@ -3,7 +3,7 @@
   become: true
   vars:
     users:
-    - "krishna"
+    - "krishnar"
 
   tasks:
   - name: Remove the user
