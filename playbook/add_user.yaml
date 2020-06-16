@@ -1,5 +1,5 @@
 ---
-- hosts: pmm
+- hosts: all
   become: true
   vars:
     users:
