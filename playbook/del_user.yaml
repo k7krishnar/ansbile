@@ -1,0 +1,15 @@
+---
+- hosts: pmm
+  become: true
+  vars:
+    users:
+    - "krishna"
+
+  tasks:
+  - name: Remove the user
+    user:
+      name: "{{ item }}"
+      state: absent
+      remove: yes
+    with_items: "{{ users }}"
+... 
